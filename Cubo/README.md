@@ -1,18 +1,14 @@
-## Getting Started
+<h1>Cubo</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p>Crie a classe conforme a representação gráfica abaixo. No construtor da classe devem ser passados os valores para os atributos privados:
+altura, largura e profundidade. E deve ser criados propriedades para acessar os valores dos atributos. Na classe Cubo, implemente os métodos:
+<code>calculaArea()</code> e <code>calculaVolume()</code> conforme as regras.</p>
 
-## Folder Structure
+<p align="center">
+  <img src="img/diagrama.png">
+</p>
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<ul>
+  <li>A área do cubo = altura * largura.</li>
+  <li>O volume do cubo = altura * largura * profundidade.</li>
+</ul>
