@@ -1,18 +1,17 @@
-## Getting Started
+<h1>Aluno</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p>Crie uma classe Aluno com os atributos: Nome, CPF, Nota1, Nota2 e Nota3 os atributos são privados, crie propriedades para acessá-los.
+Os valores para as notas, não pode ser negativas, nem maior que 10. Caso seja informado um valor negativo, deve ser considerado 0 e se
+for informado um valor maior que 10 deve ser considerado 10.</p>
 
-## Folder Structure
+<p>O construtor da classe deve receber somente o Nome e o CPF. As notas devem ser atribuídas na sequência.</p>
 
-The workspace contains two folders by default, where:
+<p>A classe deve ter um método <code>calcularMedia()</code> para calcular a média aritmética do aluno = (Nota1 + Nota2 + Nota3) / 3.</p>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<p>Crie um programa que cria vários objetos de Aluno, solicitando do teclado os dados necessários, até que  seja informado “Fim” para
+o nome do aluno. Em seguida: </p>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<ul>
+  <li>Informe os dados (nome, cpf, notas e média) de todos os alunos.</li>
+  <li>Liste a média da turma</li>
+</ul>
