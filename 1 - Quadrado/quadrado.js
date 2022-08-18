@@ -1,4 +1,4 @@
-export default class Quadrado {
+var Quadrado = class {
     constructor(lado) {
         this.lado = lado;
     }
@@ -12,8 +12,9 @@ export default class Quadrado {
     }
 
     imprimir() {
-        return `Lado: ${this.lado} <br>Area: ${this.calcular_area()} <br>Perímetro: ${this.calcular_perimetro()}`;
+        return `Lado: ${this.lado} \nArea: ${this.calcular_area()} \nPerímetro: ${this.calcular_perimetro()}`;
     }
 
 }
 
+module.exports = Quadrado;
