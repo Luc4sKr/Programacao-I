@@ -8,4 +8,4 @@ O método imprimir deve retornar o valor do lado, o valor da área e do perímet
     <li>Perímetro = 4*lado</li>
 </ul>
 
-<p>Crie objetos da classe <code>Quadrado<code> e faça testes chamando os seus métodos.</p>
+<p>Crie objetos da classe <code>Quadrado</code> e faça testes chamando os seus métodos.</p>
