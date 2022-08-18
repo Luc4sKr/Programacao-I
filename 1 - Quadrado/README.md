@@ -9,3 +9,12 @@ O método imprimir deve retornar o valor do lado, o valor da área e do perímet
 </ul>
 
 <p>Crie objetos da classe <code>Quadrado</code> e faça testes chamando os seus métodos.</p>
+
+<h2>Como executar</h2>
+
+<p>Requisitos</p>
+<ul>
+    <li>Node.js</li>
+</ul>
+
+<p>Rode o comando no diretório: <code>node .\script.js</code></p>
