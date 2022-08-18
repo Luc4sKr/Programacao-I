@@ -12,9 +12,9 @@ O método imprimir deve retornar o valor do lado, o valor da área e do perímet
 
 <h2>Como executar</h2>
 
-<p>Requisitos</p>
+<p>Requisitos:</p>
 <ul>
     <li>Node.js</li>
 </ul>
 
-<p>Rode o comando no diretório: <code>node .\script.js</code></p>
+<p>Execute o comando: <code>node .\script.js</code></p>
