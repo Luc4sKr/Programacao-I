@@ -5,7 +5,7 @@ e os métodos conforme a representação gráfica abaixo.</p>
 <p>Os atributos devem ser privados e devem ser acessados via propriedades.</p>
 
 <p align=center>
-    <img src="img/diarama.png">
+    <img src="./img/diagrama.png">
 </p>
 
 <p>O método Verificar retorna à situação do eleitor conforme a sua idade, seguindo as regras:
