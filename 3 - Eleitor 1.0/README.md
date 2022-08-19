@@ -9,8 +9,8 @@ e os métodos conforme a representação gráfica abaixo.</p>
 </p>
 
 <p>O método Verificar retorna à situação do eleitor conforme a sua idade, seguindo as regras:
-- Idade menor que 16 anos: "<i>nome do eleitor</i> ainda não pode votar. Tem apenas <i>idade</i>>";
-- Idade igual ou superior a 18 anos e menor ou igual a 65 anos: "<i>nome do eleitor</i> - <i>idade</i> deve votar.";
-- Idade entre 16 e 18 anos e superior a 65 anos: "<i>nome do eleitor</i> - <i>idade</i>> Voto facultativo.";</p>
+- Idade menor que 16 anos: "<i><code>nome do eleitor</code></i> ainda não pode votar. Tem apenas <i><code>idade</code></i>>";
+- Idade igual ou superior a 18 anos e menor ou igual a 65 anos: "<i><code>nome do eleitor</code></i> - <i><code>idade</code></i> deve votar.";
+- Idade entre 16 e 18 anos e superior a 65 anos: "<i>nome do eleitor</i> - <i><code>idade</code></i>> Voto facultativo.";</p>
 
 <p>Crie objetos da classe <code>Eleitor</code> com várias idades e imprima a sua situação.</p>
