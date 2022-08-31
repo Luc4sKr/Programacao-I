@@ -1,6 +1,3 @@
-from inspect import isdatadescriptor
-
-
 class Eleitor:
     def __init__(self, nome, idade, numero_eleitor) -> None:
         self.__nome = nome
@@ -40,5 +37,6 @@ class Eleitor:
     @numero_eleitor.setter
     def numero_eleitor(self, num):
         self.__numero_eleitor = num
+
 
         
