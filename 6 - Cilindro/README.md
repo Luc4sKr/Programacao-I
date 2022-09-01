@@ -4,7 +4,7 @@
 dos métodos para calcular o volume, a área da base, a área lateral e a área total.</p>
 
 <p align=center>
-    <img src="img/cilindro.png" width=150>
+    <img src="img/cilindro.png" width=250>
 </p>
 
 <ul>
