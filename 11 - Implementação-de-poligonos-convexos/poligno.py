@@ -2,7 +2,7 @@ from math import sqrt
 from ponto import Ponto
 
 class Poligno:
-    def __init__(self, pontos):
+    def __init__(self, pontos) -> None:
         self.__pontos = pontos
 
     def __str__(self) -> str:
