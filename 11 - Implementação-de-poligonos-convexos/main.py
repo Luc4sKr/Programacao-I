@@ -1,8 +1,39 @@
 from poligno import Poligno
 from ponto import Ponto
+from lista_poligno import Lista_polignos
 
+def criar_poligno():
+    print("=============================")
+    print("Criar Polígno")
+    print("=============================")
+
+    lista_pontos = []
+    i = 0
+
+    while True:
+        pontox = float(input(f"Ponto x{i}: "))
+        pontoy = float(input(f"Ponto y{i}: "))
+        ponto = Ponto(pontox, pontoy)
+        lista_pontos.append(ponto)
+
+        if input("Continuar? [S/N]: ").upper() == "N":
+            break
+
+        i += 1
+
+    poligno = Poligno(lista_pontos)
+    print(poligno.perimetro())
+
+def listar_polignos():
+    for poligno in lista_polignos.lista:
+        print(poligno)
 
 if __name__ == "__main__":
+    global lista_pontos
+    global lista_polignos
+
+    lista_polignos = Lista_polignos()
+
     resp = None
     while True:
         print("=============================")
@@ -11,20 +42,20 @@ if __name__ == "__main__":
         print("0 - Sair")
         print("=============================")
 
-        try:
-            resp = int(input("-> "))
-            print("=============================")
-
-            if resp == 1:
-                break
-            elif resp == 2:
-                pass
-            elif resp == 0:
-                pass
-        except:
-            print("=============================")
-            print("ERRO! Resposta inválida")
-
+        
+        resp = int(input("-> "))
+        print("=============================")
+        if resp == 1:
+            criar_poligno()
+        elif resp == 2:
+            listar_polignos()
+        elif resp == 0:
+            break
         
 
         
+
+
+
+
+            
