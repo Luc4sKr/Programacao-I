@@ -12,8 +12,9 @@ Polígno
 ---------------
 Pontos:
 {s.join(map(str, self.__pontos))}
----------------
-"""
+Perimetro: {self.perimetro()}
+Area: {self.area()}
+---------------"""
 
     def area(self):
         a = 0
@@ -42,11 +43,3 @@ Pontos:
     @property
     def pontos(self):
         return self.__pontos
-
-
-pol1 = Poligno([Ponto(1, 1), Ponto(3, 1), Ponto(3, 3), Ponto(1, 3)])
-# pol2 = Poligno([Ponto(4, 1), Ponto(7, 3), Ponto(6, 6), Ponto(2, 7), Ponto(1, 4)])
-
-# print(pol1.perimetro())
-# print(pol1.area())
-print(pol1)

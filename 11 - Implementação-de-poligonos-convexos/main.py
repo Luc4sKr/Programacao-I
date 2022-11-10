@@ -22,11 +22,13 @@ def criar_poligno():
         i += 1
 
     poligno = Poligno(lista_pontos)
-    print(poligno.perimetro())
+    lista_polignos.lista.append(poligno)
 
 def listar_polignos():
     for poligno in lista_polignos.lista:
         print(poligno)
+
+    
 
 if __name__ == "__main__":
     global lista_pontos
