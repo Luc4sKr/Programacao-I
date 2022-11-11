@@ -53,6 +53,8 @@ if __name__ == "__main__":
             listar_polignos()
         elif resp == 0:
             break
+        else:
+            print("Resposta inválida!")
         
 
         

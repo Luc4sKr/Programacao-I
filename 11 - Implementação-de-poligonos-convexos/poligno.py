@@ -1,5 +1,4 @@
 from math import sqrt
-from ponto import Ponto
 
 class Poligno:
     def __init__(self, pontos) -> None:
@@ -7,14 +6,14 @@ class Poligno:
 
     def __str__(self) -> str:
         s = "\n"
-        return f"""---------------
+        return f"""-------------------
 Polígno
----------------
+-------------------
 Pontos:
 {s.join(map(str, self.__pontos))}
 Perimetro: {self.perimetro()}
 Area: {self.area()}
----------------"""
+-------------------"""
 
     def area(self):
         a = 0
@@ -38,7 +37,7 @@ Area: {self.area()}
         return f"{p:.2f}"
     
     def addPonto(self, ponto):
-        self.__pontos.append(Ponto(ponto[0], ponto[1]))
+        self.__pontos.append(ponto)
 
     @property
     def pontos(self):
